@@ -4,10 +4,10 @@
 # Using build pattern: pyproject
 #
 Name     : pypi-argparse_manpage
-Version  : 4.2
-Release  : 3
-URL      : https://files.pythonhosted.org/packages/f6/84/2d6cf91aeebdb4f19c6e0d71a2495091d75d889e3a1f1d3203dcf9b835f8/argparse-manpage-4.2.tar.gz
-Source0  : https://files.pythonhosted.org/packages/f6/84/2d6cf91aeebdb4f19c6e0d71a2495091d75d889e3a1f1d3203dcf9b835f8/argparse-manpage-4.2.tar.gz
+Version  : 4.3
+Release  : 4
+URL      : https://files.pythonhosted.org/packages/d3/5f/3353e1dd33fcb3801cfe7e6412ad9d75202fc642679d105015e361aceef7/argparse-manpage-4.3.tar.gz
+Source0  : https://files.pythonhosted.org/packages/d3/5f/3353e1dd33fcb3801cfe7e6412ad9d75202fc642679d105015e361aceef7/argparse-manpage-4.3.tar.gz
 Summary  : Build manual page from python's ArgumentParser object.
 Group    : Development/Tools
 License  : Apache-2.0
@@ -71,10 +71,10 @@ python3 components for the pypi-argparse_manpage package.
 
 
 %prep
-%setup -q -n argparse-manpage-4.2
-cd %{_builddir}/argparse-manpage-4.2
+%setup -q -n argparse-manpage-4.3
+cd %{_builddir}/argparse-manpage-4.3
 pushd ..
-cp -a argparse-manpage-4.2 buildavx2
+cp -a argparse-manpage-4.3 buildavx2
 popd
 
 %build
@@ -82,7 +82,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1684173684
+export SOURCE_DATE_EPOCH=1684337786
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
