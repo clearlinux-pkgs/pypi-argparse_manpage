@@ -5,7 +5,7 @@
 #
 Name     : pypi-argparse_manpage
 Version  : 4.5
-Release  : 6
+Release  : 7
 URL      : https://files.pythonhosted.org/packages/fe/0d/8b343214e65ae5e50d3de88706197e2351224b0cc52dde63e621c038d5fa/argparse-manpage-4.5.tar.gz
 Source0  : https://files.pythonhosted.org/packages/fe/0d/8b343214e65ae5e50d3de88706197e2351224b0cc52dde63e621c038d5fa/argparse-manpage-4.5.tar.gz
 Summary  : Build manual page from python's ArgumentParser object.
